@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Linux on 张某的博客</title>
+    <link>https://zhangguojvn.github.io/categories/linux/</link>
+    <description>Recent content in Linux on 张某的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 20 Apr 2022 03:50:51 +0800</lastBuildDate><atom:link href="https://zhangguojvn.github.io/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>自签名安全启动 Grub 设置</title>
+      <link>https://zhangguojvn.github.io/posts/%E8%87%AA%E7%AD%BE%E5%90%8D%E5%AE%89%E5%85%A8%E5%90%AF%E5%8A%A8-grub-%E8%AE%BE%E7%BD%AE/</link>
+      <pubDate>Wed, 20 Apr 2022 03:50:51 +0800</pubDate>
+      
+      <guid>https://zhangguojvn.github.io/posts/%E8%87%AA%E7%AD%BE%E5%90%8D%E5%AE%89%E5%85%A8%E5%90%AF%E5%8A%A8-grub-%E8%AE%BE%E7%BD%AE/</guid>
+      <description>自签名安全启动记录</description>
+    </item>
+    
+  </channel>
+</rss>
