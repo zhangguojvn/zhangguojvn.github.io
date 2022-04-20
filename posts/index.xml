@@ -5,7 +5,16 @@
     <link>https://zhangguojvn.github.io/posts/</link>
     <description>Recent content in Posts on 张某的博客</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 20 Apr 2022 03:50:51 +0800</lastBuildDate><atom:link href="https://zhangguojvn.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Apr 2022 19:29:29 +0800</lastBuildDate><atom:link href="https://zhangguojvn.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>非特权用户使用 Xorg</title>
+      <link>https://zhangguojvn.github.io/posts/%E9%9D%9E%E7%89%B9%E6%9D%83%E7%94%A8%E6%88%B7%E4%BD%BF%E7%94%A8-xorg/</link>
+      <pubDate>Wed, 20 Apr 2022 19:29:29 +0800</pubDate>
+      
+      <guid>https://zhangguojvn.github.io/posts/%E9%9D%9E%E7%89%B9%E6%9D%83%E7%94%A8%E6%88%B7%E4%BD%BF%E7%94%A8-xorg/</guid>
+      <description>非特权用户使用 Xorg</description>
+    </item>
+    
     <item>
       <title>自签名安全启动 Grub 设置</title>
       <link>https://zhangguojvn.github.io/posts/%E8%87%AA%E7%AD%BE%E5%90%8D%E5%AE%89%E5%85%A8%E5%90%AF%E5%8A%A8-grub-%E8%AE%BE%E7%BD%AE/</link>

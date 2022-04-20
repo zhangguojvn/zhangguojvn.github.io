@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Xorg on 张某的博客</title>
+    <link>https://zhangguojvn.github.io/tags/xorg/</link>
+    <description>Recent content in Xorg on 张某的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 20 Apr 2022 19:29:29 +0800</lastBuildDate><atom:link href="https://zhangguojvn.github.io/tags/xorg/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>非特权用户使用 Xorg</title>
+      <link>https://zhangguojvn.github.io/posts/%E9%9D%9E%E7%89%B9%E6%9D%83%E7%94%A8%E6%88%B7%E4%BD%BF%E7%94%A8-xorg/</link>
+      <pubDate>Wed, 20 Apr 2022 19:29:29 +0800</pubDate>
+      
+      <guid>https://zhangguojvn.github.io/posts/%E9%9D%9E%E7%89%B9%E6%9D%83%E7%94%A8%E6%88%B7%E4%BD%BF%E7%94%A8-xorg/</guid>
+      <description>非特权用户使用 Xorg</description>
+    </item>
+    
+  </channel>
+</rss>
