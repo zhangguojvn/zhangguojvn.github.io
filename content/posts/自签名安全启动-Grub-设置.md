@@ -15,7 +15,7 @@ description: 自签名安全启动记录
 grub-mkstandalone --directory /usr/lib/grub/x86_64-efi --format x86_64-efi --disable-shim-lock --output grub.efi /boot/grub/grub.cfg=grub-pre.cfg
 ```
 
-其中 /boot/grub/grub.cfg=grub-pre.cfg 代表将 grub-pre.cfg 放入 memdisk 的 /boot/grub/grub.cfg=grub-pre.cfg 中。grub-pre.cfq 为grub启动后执行的第一个配置，负责基础的模块调用。内容如下。其中必须要加载 tpm 模块对内核进行验证。
+其中 /boot/grub/grub.cfg=grub-pre.cfg 代表将 grub-pre.cfg 放入 memdisk 的 /boot/grub/grub.cfg 中。grub-pre.cfq 为grub启动后执行的第一个配置，负责基础的模块调用。内容如下。其中必须要加载 tpm 模块对内核进行验证。
 
 ```cfg
 insmod part_gpt
