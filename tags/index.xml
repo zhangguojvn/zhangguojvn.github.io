@@ -5,7 +5,25 @@
     <link>https://zhangguojvn.github.io/tags/</link>
     <description>Recent content in Tags on 张某的博客</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 20 Apr 2022 19:29:29 +0800</lastBuildDate><atom:link href="https://zhangguojvn.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 30 Apr 2022 17:09:57 +0800</lastBuildDate><atom:link href="https://zhangguojvn.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dracut</title>
+      <link>https://zhangguojvn.github.io/tags/dracut/</link>
+      <pubDate>Sat, 30 Apr 2022 17:09:57 +0800</pubDate>
+      
+      <guid>https://zhangguojvn.github.io/tags/dracut/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lvm</title>
+      <link>https://zhangguojvn.github.io/tags/lvm/</link>
+      <pubDate>Sat, 30 Apr 2022 17:09:57 +0800</pubDate>
+      
+      <guid>https://zhangguojvn.github.io/tags/lvm/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Non-Root</title>
       <link>https://zhangguojvn.github.io/tags/non-root/</link>
