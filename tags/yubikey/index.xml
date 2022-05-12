@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Yubikey on 张某的博客</title>
+    <link>https://zhangguojvn.github.io/tags/yubikey/</link>
+    <description>Recent content in Yubikey on 张某的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 06 May 2022 19:28:44 +0800</lastBuildDate><atom:link href="https://zhangguojvn.github.io/tags/yubikey/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Yubikey 配置 PIV 签名</title>
+      <link>https://zhangguojvn.github.io/posts/yubikey-%E9%85%8D%E7%BD%AE-piv-%E7%AD%BE%E5%90%8D/</link>
+      <pubDate>Fri, 06 May 2022 19:28:44 +0800</pubDate>
+      
+      <guid>https://zhangguojvn.github.io/posts/yubikey-%E9%85%8D%E7%BD%AE-piv-%E7%AD%BE%E5%90%8D/</guid>
+      <description>设置模式 计划只使用 PIV 模式，可以在 yubikey manager 中关闭其他模式。
+ykman config mode CCID 启动 pcscd 必须启动 pcscd 否则 yubico-piv-tool 无法发现设备
+#systemd systemctl start pcscd #openRC /etc/init.d/pcscd #other /usr/sbin/pcscd &amp;amp; 生成ECDSA密钥 openssl ecparam -out ca.key -name secp384r1 -genkey openssl ec -in ec-secp256k1-priv-key.pem -pubout &amp;gt; secp256k1-pub.pem 生成 RSA 密钥 openssl genrsa -out private.pem 2048 openssl rsa -in private.pem -pubout -out public.pem 导入 yubikey 在以下例子中，将私钥导入 9a 插槽中。关于插槽介绍可以看 官方 的这篇文章。
+yubico-piv-tool -s 9a -a import-key -i private.</description>
+    </item>
+    
+  </channel>
+</rss>

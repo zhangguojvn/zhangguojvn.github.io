@@ -3,27 +3,45 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://zhangguojvn.github.io/categories/</loc>
-    <lastmod>2022-04-30T17:09:57+08:00</lastmod>
+    <lastmod>2022-05-12T23:40:37+08:00</lastmod>
   </url><url>
     <loc>https://zhangguojvn.github.io/tags/dracut/</loc>
-    <lastmod>2022-04-30T17:09:57+08:00</lastmod>
+    <lastmod>2022-05-12T23:40:37+08:00</lastmod>
+  </url><url>
+    <loc>https://zhangguojvn.github.io/posts/dracut-%E5%8E%9F%E7%94%9F%E6%8C%82%E8%BD%BD-overlayfs-root/</loc>
+    <lastmod>2022-05-12T23:40:37+08:00</lastmod>
+  </url><url>
+    <loc>https://zhangguojvn.github.io/categories/linux/</loc>
+    <lastmod>2022-05-12T23:40:37+08:00</lastmod>
+  </url><url>
+    <loc>https://zhangguojvn.github.io/tags/overlayfs/</loc>
+    <lastmod>2022-05-12T23:40:37+08:00</lastmod>
+  </url><url>
+    <loc>https://zhangguojvn.github.io/posts/</loc>
+    <lastmod>2022-05-12T23:40:37+08:00</lastmod>
+  </url><url>
+    <loc>https://zhangguojvn.github.io/tags/</loc>
+    <lastmod>2022-05-12T23:40:37+08:00</lastmod>
+  </url><url>
+    <loc>https://zhangguojvn.github.io/</loc>
+    <lastmod>2022-05-12T23:40:37+08:00</lastmod>
+  </url><url>
+    <loc>https://zhangguojvn.github.io/tags/pik/</loc>
+    <lastmod>2022-05-06T19:28:44+08:00</lastmod>
+  </url><url>
+    <loc>https://zhangguojvn.github.io/categories/securitytoken/</loc>
+    <lastmod>2022-05-06T19:28:44+08:00</lastmod>
+  </url><url>
+    <loc>https://zhangguojvn.github.io/tags/yubikey/</loc>
+    <lastmod>2022-05-06T19:28:44+08:00</lastmod>
+  </url><url>
+    <loc>https://zhangguojvn.github.io/posts/yubikey-%E9%85%8D%E7%BD%AE-piv-%E7%AD%BE%E5%90%8D/</loc>
+    <lastmod>2022-05-06T19:28:44+08:00</lastmod>
   </url><url>
     <loc>https://zhangguojvn.github.io/posts/dracut-%E5%BC%80%E6%9C%BA%E8%87%AA%E5%8A%A8%E5%88%9B%E5%BB%BA-lvm-%E5%BF%AB%E7%85%A7/</loc>
     <lastmod>2022-04-30T17:09:57+08:00</lastmod>
   </url><url>
-    <loc>https://zhangguojvn.github.io/categories/linux/</loc>
-    <lastmod>2022-04-30T17:09:57+08:00</lastmod>
-  </url><url>
     <loc>https://zhangguojvn.github.io/tags/lvm/</loc>
-    <lastmod>2022-04-30T17:09:57+08:00</lastmod>
-  </url><url>
-    <loc>https://zhangguojvn.github.io/posts/</loc>
-    <lastmod>2022-04-30T17:09:57+08:00</lastmod>
-  </url><url>
-    <loc>https://zhangguojvn.github.io/tags/</loc>
-    <lastmod>2022-04-30T17:09:57+08:00</lastmod>
-  </url><url>
-    <loc>https://zhangguojvn.github.io/</loc>
     <lastmod>2022-04-30T17:09:57+08:00</lastmod>
   </url><url>
     <loc>https://zhangguojvn.github.io/tags/non-root/</loc>

@@ -5,7 +5,30 @@
     <link>https://zhangguojvn.github.io/posts/</link>
     <description>Recent content in Posts on 张某的博客</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 30 Apr 2022 17:09:57 +0800</lastBuildDate><atom:link href="https://zhangguojvn.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 12 May 2022 23:40:37 +0800</lastBuildDate><atom:link href="https://zhangguojvn.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dracut 原生挂载 OverlayFS Root</title>
+      <link>https://zhangguojvn.github.io/posts/dracut-%E5%8E%9F%E7%94%9F%E6%8C%82%E8%BD%BD-overlayfs-root/</link>
+      <pubDate>Thu, 12 May 2022 23:40:37 +0800</pubDate>
+      
+      <guid>https://zhangguojvn.github.io/posts/dracut-%E5%8E%9F%E7%94%9F%E6%8C%82%E8%BD%BD-overlayfs-root/</guid>
+      <description>ArchLinux 目前发现在特定的 Dracut 配置下可以成功挂载 OverlayFS 的跟系统。原因不明。因为我主要使用 Gentoo 系统，希望有缘人继续深入研究。
+/etc/dracut.conf ---------- hostonly=&amp;#34;yes&amp;#34; use_fstab=&amp;#34;yes&amp;#34; add_drivers+=&amp;#34; squashfs overlay &amp;#34; install_items+=&amp;#34; /sbin/lvm /etc/fstab.sys &amp;#34; add_fstab=&amp;#34;/etc/fstab.sys&amp;#34; 该为挂载配置，/dev/VolGroup/ovkerlay 为 overlayFS 的 upperdir, /dev/VolGroup/rootfs 为 OverlayFS 的 lowerdir, 并且要重复讲 root 挂载至 /sysroot。
+/etc/fstab.sys ---------- /dev/VolGroup/ovkerlay /run/overlay ext4 defaults 0 0 /dev/VolGroup/rootfs /run/rootfs squashfs defaults 0 0 overlay / overlay lowerdir=/run/rootfs,upperdir=/run/overlay/upperdir,workdir=/run/overlay/workdir,x-systemd.requires-mounts-for=/run/overlay,x-systemd.requires-mounts-for=/run/rootfs 0 1 overlay /sysroot overlay lowerdir=/run/rootfs,upperdir=/run/overlay/upperdir,workdir=/run/overlay/workdir,x-systemd.requires-mounts-for=/run/overlay,x-systemd.requires-mounts-for=/run/rootfs 0 1 </description>
+    </item>
+    
+    <item>
+      <title>Yubikey 配置 PIV 签名</title>
+      <link>https://zhangguojvn.github.io/posts/yubikey-%E9%85%8D%E7%BD%AE-piv-%E7%AD%BE%E5%90%8D/</link>
+      <pubDate>Fri, 06 May 2022 19:28:44 +0800</pubDate>
+      
+      <guid>https://zhangguojvn.github.io/posts/yubikey-%E9%85%8D%E7%BD%AE-piv-%E7%AD%BE%E5%90%8D/</guid>
+      <description>设置模式 计划只使用 PIV 模式，可以在 yubikey manager 中关闭其他模式。
+ykman config mode CCID 启动 pcscd 必须启动 pcscd 否则 yubico-piv-tool 无法发现设备
+#systemd systemctl start pcscd #openRC /etc/init.d/pcscd #other /usr/sbin/pcscd &amp;amp; 生成ECDSA密钥 openssl ecparam -out ca.key -name secp384r1 -genkey openssl ec -in ec-secp256k1-priv-key.pem -pubout &amp;gt; secp256k1-pub.pem 生成 RSA 密钥 openssl genrsa -out private.pem 2048 openssl rsa -in private.pem -pubout -out public.pem 导入 yubikey 在以下例子中，将私钥导入 9a 插槽中。关于插槽介绍可以看 官方 的这篇文章。
+yubico-piv-tool -s 9a -a import-key -i private.</description>
+    </item>
+    
     <item>
       <title>Dracut 开机自动创建 Lvm 快照</title>
       <link>https://zhangguojvn.github.io/posts/dracut-%E5%BC%80%E6%9C%BA%E8%87%AA%E5%8A%A8%E5%88%9B%E5%BB%BA-lvm-%E5%BF%AB%E7%85%A7/</link>
