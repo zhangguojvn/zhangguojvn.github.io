@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Golang on 张某的博客</title>
+    <link>https://zhangguojvn.github.io/tags/golang/</link>
+    <description>Recent content in Golang on 张某的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 20 Apr 2022 19:29:29 +0800</lastBuildDate><atom:link href="https://zhangguojvn.github.io/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>在 Windows 下安装 go-oci8</title>
+      <link>https://zhangguojvn.github.io/posts/install-go-oci8-in-windows/</link>
+      <pubDate>Wed, 20 Apr 2022 19:29:29 +0800</pubDate>
+      
+      <guid>https://zhangguojvn.github.io/posts/install-go-oci8-in-windows/</guid>
+      <description>介绍如何在 Windows 下安装 Go 的 Oracle 数据库驱动。</description>
+    </item>
+    
+  </channel>
+</rss>

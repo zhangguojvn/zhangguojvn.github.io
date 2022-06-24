@@ -18,7 +18,7 @@
 镜像内部至少需要 proc,sys,dev。其中 90dmsquash-live 使用 /proc 检测是否为正确的系统格式。98dracut-systemd 使用 usable_root() 函数，该函数使用 /proc,/sys,/dev 检测是否和正确的系统格式。建议也创建 /run 文件夹。
 镜像放在内核参数&amp;lt;rd.live.dir&amp;gt;/&amp;lt;rd.live.squashimg&amp;gt;。这两个参数默认值为 LiveOS 和 squashfs.img 即默认放入 LiveOS/squashfs.img 即可。
 OverlayFS 持久化分区准备 该分区需要在根目录下创建内核参数 &amp;lt;rd.live.overlay&amp;gt; 目录作为 upperdir。并且在上级目录创建 ovlwork 文件夹作为 workdir。&amp;lt;rd.live.overlay&amp;gt;默认为`/&amp;lt;rd.live.dir&amp;gt;/overlay--&amp;quot;,其中LABEL和UUID为ROOT分区的LABEL和UUID。持久化不仅可以用文件夹，也可以使用文件，在此不介绍。
-内核参数  root=live:分区: 存放镜像的分区。 rd.live.overlay=分区:目录: OverlayFS 的 upperdir，目录必须由/开头。 rootfstype=ext4: root 分区的文件类型。  </description>
+内核参数 root=live:分区: 存放镜像的分区。 rd.live.overlay=分区:目录: OverlayFS 的 upperdir，目录必须由/开头。 rootfstype=ext4: root 分区的文件类型。 </description>
     </item>
     
   </channel>
