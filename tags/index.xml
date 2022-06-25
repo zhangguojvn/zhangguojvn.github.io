@@ -5,7 +5,25 @@
     <link>https://zhangguojvn.github.io/tags/</link>
     <description>Recent content in Tags on 张某的博客</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 24 Jun 2022 17:20:29 +0800</lastBuildDate><atom:link href="https://zhangguojvn.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 Jun 2022 12:40:51 +0800</lastBuildDate><atom:link href="https://zhangguojvn.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Grub</title>
+      <link>https://zhangguojvn.github.io/tags/grub/</link>
+      <pubDate>Sat, 25 Jun 2022 12:40:51 +0800</pubDate>
+      
+      <guid>https://zhangguojvn.github.io/tags/grub/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SecureBoot</title>
+      <link>https://zhangguojvn.github.io/tags/secureboot/</link>
+      <pubDate>Sat, 25 Jun 2022 12:40:51 +0800</pubDate>
+      
+      <guid>https://zhangguojvn.github.io/tags/secureboot/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>go-oci8</title>
       <link>https://zhangguojvn.github.io/tags/go-oci8/</link>
@@ -93,24 +111,6 @@
       <pubDate>Wed, 20 Apr 2022 19:29:29 +0800</pubDate>
       
       <guid>https://zhangguojvn.github.io/tags/xorg/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Grub</title>
-      <link>https://zhangguojvn.github.io/tags/grub/</link>
-      <pubDate>Wed, 20 Apr 2022 03:50:51 +0800</pubDate>
-      
-      <guid>https://zhangguojvn.github.io/tags/grub/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>SecureBoot</title>
-      <link>https://zhangguojvn.github.io/tags/secureboot/</link>
-      <pubDate>Wed, 20 Apr 2022 03:50:51 +0800</pubDate>
-      
-      <guid>https://zhangguojvn.github.io/tags/secureboot/</guid>
       <description></description>
     </item>
     

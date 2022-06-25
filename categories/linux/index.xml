@@ -5,7 +5,20 @@
     <link>https://zhangguojvn.github.io/categories/linux/</link>
     <description>Recent content in Linux on 张某的博客</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 12 May 2022 23:40:37 +0800</lastBuildDate><atom:link href="https://zhangguojvn.github.io/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 Jun 2022 12:40:51 +0800</lastBuildDate><atom:link href="https://zhangguojvn.github.io/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>使用 Grub 构建统一内核映像</title>
+      <link>https://zhangguojvn.github.io/posts/building-a-unified-kernel-image-with-grub/</link>
+      <pubDate>Sat, 25 Jun 2022 12:40:51 +0800</pubDate>
+      
+      <guid>https://zhangguojvn.github.io/posts/building-a-unified-kernel-image-with-grub/</guid>
+      <description>统一内核映像是单个可执行文件，可以直接从 UEFI 固件启动，或者由引导加载程序自动获取，只需很少或没有配置。
+准备 Grub 配置文件 此配置文件和普通 Grub 配置文件一样，一下只是适配我电脑的配置,默认情况下 Grub 的 root 为 (memdisk).
+~/SecureBoot/grub.cfg ----- menuentry &amp;#39;Gentoo&amp;#39; --class gentoo --class gnu-linux --class gnu --class os{ insmod all_video linux /vmlinuz root=/dev/sda1 initrd /initramfs.img } 构建 EFI 文件 使用 grub-mkstandalone 构建单一的内核映像, 将命令中的 vmlinuz-5.15.41-gentoo 以及 iniramfs-5.14.41-gentoo 替换为自己的内核及 initramfs.
+grub-mkstandalone --direcotry /usr/lib/grub/x86_64-efi --format x86_64-efi --disable-shim-lock --output grub.efi /vmlinuz=/boot/vmlinuz-5.15.41-gentoo /initramfs.img=/boot/initramfs-5.14.41-gentoo /boot/grub/grub.cfg=~/SecureBoot/grub.cfg 签名 EFI 文件 (可选) 如果使用了安全启动，可以对 EFI 文件进行签名.
+sbsign --key ~/keys/db.key --cert ~/keys/db.crt --output grub.</description>
+    </item>
+    
     <item>
       <title>Dracut 原生挂载 OverlayFS Root</title>
       <link>https://zhangguojvn.github.io/posts/dracut-%E5%8E%9F%E7%94%9F%E6%8C%82%E8%BD%BD-overlayfs-root/</link>
