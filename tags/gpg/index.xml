@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>GPG on 张某的博客</title>
+    <link>https://zhangguojvn.github.io/tags/gpg/</link>
+    <description>Recent content in GPG on 张某的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 25 Jun 2022 17:20:57 +0800</lastBuildDate><atom:link href="https://zhangguojvn.github.io/tags/gpg/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>在Dracut使用GPG解密硬盘</title>
+      <link>https://zhangguojvn.github.io/posts/decrypting-hard-drives-with-gpg-in-dracut/</link>
+      <pubDate>Sat, 25 Jun 2022 17:20:57 +0800</pubDate>
+      
+      <guid>https://zhangguojvn.github.io/posts/decrypting-hard-drives-with-gpg-in-dracut/</guid>
+      <description>配置加密 将配置写入 /etc/crypttab ,将$name $uuid $keyfile 替换为自己的配置, keyfile 为.gpg 结尾时,会启用 crypt-gpg.
+/etc/crypttab ----- $name UUID=$uuid $keyfile 设置公钥 将公钥放入 /etc/dracut.conf.d/crypt-public-key.gpg
+设置 dracut.conf 需要手动加入 crypt-gpg 模块,将 $keyfile 替换为自己的密钥
+/etc/dracut.conf ----- hostonly=&amp;#34;no&amp;#34; install_items+=&amp;#34; /etc/crypttab $keyfile &amp;#34; add_dracutmodules=&amp;#34; crypt-gpg &amp;#34; </description>
+    </item>
+    
+  </channel>
+</rss>
