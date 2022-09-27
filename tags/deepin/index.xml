@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Deepin on 张某的博客</title>
+    <link>https://zhangguojvn.github.io/tags/deepin/</link>
+    <description>Recent content in Deepin on 张某的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 27 Sep 2022 07:39:32 +0000</lastBuildDate><atom:link href="https://zhangguojvn.github.io/tags/deepin/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>解决 UOS(Deepin) 无法进入桌面的问题</title>
+      <link>https://zhangguojvn.github.io/posts/solve-uosdeepin-can-not-enter-the-desktop/</link>
+      <pubDate>Tue, 27 Sep 2022 07:39:32 +0000</pubDate>
+      
+      <guid>https://zhangguojvn.github.io/posts/solve-uosdeepin-can-not-enter-the-desktop/</guid>
+      <description>1. 问题描述 密码后无法进入桌面，回退到登陆页面。
+2. 日志记录 查看 lightdm 位于 /var/log/lightdm/lightdm.log 的日志，发现以下异常。
+[+4.55s] DEBUG: Session: Failed during authentication [+4.55s] DEBUG: Seat seat0: Session stopped 3. 发现问题 发现用户目录下和验证有关的文件 .Xauthority 为 root 所有，删除即可。</description>
+    </item>
+    
+  </channel>
+</rss>
