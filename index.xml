@@ -5,7 +5,20 @@
     <link>https://zhangguojvn.github.io/</link>
     <description>Recent content on 张某的博客</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 27 Sep 2022 07:39:32 +0000</lastBuildDate><atom:link href="https://zhangguojvn.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 13 Oct 2022 02:41:06 +0000</lastBuildDate><atom:link href="https://zhangguojvn.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux 上的 tiff 文档查看</title>
+      <link>https://zhangguojvn.github.io/posts/viewer-for-multipage-tiff-files-on-linux/</link>
+      <pubDate>Thu, 13 Oct 2022 02:41:06 +0000</pubDate>
+      
+      <guid>https://zhangguojvn.github.io/posts/viewer-for-multipage-tiff-files-on-linux/</guid>
+      <description>方案1: 转换成 PDF 使用 libtiff 的 tiff2pdf 将 tiff 文档转换为 pdf 进行查看.
+安装 Debian 系( Ubuntu/Debian/Deepin/UOS )安装 libtiff-tools sudo apt install -y libtiff-tools Arch 系安装 libtiff sudo pacman -S libtiff 运行 将 source.tif 替换为源文件名 output.pdf 替换为输出文件名
+tiff2pdf source.tif -o output.pdf 方案2: 直接读取 使用 evince 直接读取 tiff 文档.
+安装 Debian 系( Ubuntu/Debian/Deepin/UOS )安装 evince sudo apt install -y evince Arch 系安装 evince sudo pacman -S evince 运行 将 source.tif 替换为源文件名
+evince source.</description>
+    </item>
+    
     <item>
       <title>解决 UOS(Deepin) 无法进入桌面的问题</title>
       <link>https://zhangguojvn.github.io/posts/solve-uosdeepin-can-not-enter-the-desktop/</link>
