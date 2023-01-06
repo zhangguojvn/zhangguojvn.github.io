@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>ZFS on 张某的博客</title>
+    <link>https://zhangguojvn.github.io/tags/zfs/</link>
+    <description>Recent content in ZFS on 张某的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 30 Dec 2022 17:22:29 +0800</lastBuildDate><atom:link href="https://zhangguojvn.github.io/tags/zfs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ZFS 学习笔记</title>
+      <link>https://zhangguojvn.github.io/posts/zfs-note/</link>
+      <pubDate>Fri, 30 Dec 2022 17:22:29 +0800</pubDate>
+      
+      <guid>https://zhangguojvn.github.io/posts/zfs-note/</guid>
+      <description>非特权用户使用 Xorg</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -2,19 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://zhangguojvn.github.io/categories/</loc>
+    <lastmod>2022-12-30T17:22:29+08:00</lastmod>
+  </url><url>
+    <loc>https://zhangguojvn.github.io/categories/linux/</loc>
+    <lastmod>2022-12-30T17:22:29+08:00</lastmod>
+  </url><url>
+    <loc>https://zhangguojvn.github.io/posts/</loc>
+    <lastmod>2022-12-30T17:22:29+08:00</lastmod>
+  </url><url>
+    <loc>https://zhangguojvn.github.io/tags/</loc>
+    <lastmod>2022-12-30T17:22:29+08:00</lastmod>
+  </url><url>
+    <loc>https://zhangguojvn.github.io/tags/zfs/</loc>
+    <lastmod>2022-12-30T17:22:29+08:00</lastmod>
+  </url><url>
+    <loc>https://zhangguojvn.github.io/posts/zfs-note/</loc>
+    <lastmod>2022-12-30T17:22:29+08:00</lastmod>
+  </url><url>
+    <loc>https://zhangguojvn.github.io/</loc>
+    <lastmod>2022-12-30T17:22:29+08:00</lastmod>
+  </url><url>
     <loc>https://zhangguojvn.github.io/posts/viewer-for-multipage-tiff-files-on-linux/</loc>
     <lastmod>2022-10-13T02:41:06+00:00</lastmod>
   </url><url>
-    <loc>https://zhangguojvn.github.io/posts/</loc>
-    <lastmod>2022-10-13T02:41:06+00:00</lastmod>
-  </url><url>
-    <loc>https://zhangguojvn.github.io/</loc>
-    <lastmod>2022-10-13T02:41:06+00:00</lastmod>
-  </url><url>
     <loc>https://zhangguojvn.github.io/tags/deepin/</loc>
-    <lastmod>2022-09-27T07:39:32+00:00</lastmod>
-  </url><url>
-    <loc>https://zhangguojvn.github.io/tags/</loc>
     <lastmod>2022-09-27T07:39:32+00:00</lastmod>
   </url><url>
     <loc>https://zhangguojvn.github.io/tags/uos/</loc>
@@ -25,9 +37,6 @@
   </url><url>
     <loc>https://zhangguojvn.github.io/posts/solve-uosdeepin-can-not-enter-the-desktop/</loc>
     <lastmod>2022-09-27T07:39:32+00:00</lastmod>
-  </url><url>
-    <loc>https://zhangguojvn.github.io/categories/</loc>
-    <lastmod>2022-09-10T20:37:42+08:00</lastmod>
   </url><url>
     <loc>https://zhangguojvn.github.io/tags/windows/</loc>
     <lastmod>2022-09-10T20:37:42+08:00</lastmod>
@@ -54,9 +63,6 @@
     <lastmod>2022-06-25T17:20:57+08:00</lastmod>
   </url><url>
     <loc>https://zhangguojvn.github.io/tags/gpg/</loc>
-    <lastmod>2022-06-25T17:20:57+08:00</lastmod>
-  </url><url>
-    <loc>https://zhangguojvn.github.io/categories/linux/</loc>
     <lastmod>2022-06-25T17:20:57+08:00</lastmod>
   </url><url>
     <loc>https://zhangguojvn.github.io/posts/decrypting-hard-drives-with-gpg-in-dracut/</loc>
