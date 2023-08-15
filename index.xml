@@ -5,6 +5,7 @@
     <link>https://zhangguojvn.github.io/</link>
     <description>Recent content on 张某的博客</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
     <lastBuildDate>Fri, 30 Dec 2022 17:22:29 +0800</lastBuildDate><atom:link href="https://zhangguojvn.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ZFS 学习笔记</title>
@@ -46,6 +47,15 @@ evince source.</description>
       
       <guid>https://zhangguojvn.github.io/posts/starting-windows-10-store-app-from-the-command-line./</guid>
       <description>找到 APP 的名字 + 打开运行窗口 输入 shell:AppsFolder 找到你的 APP 右键-建立快捷方式 系统会提示无法再次建立快捷方式，选择确认然后快捷方式会创建到桌面 右键桌面的快捷方式，选择详情，目标栏开头就是 APP 的名字 获取 APP 的 PackageFamilyName 和 InstallLocation 打开 PowerShell 输入 Get-AppxPackage &amp;lt;APPNAME&amp;gt; 将其中 &amp;lt;APPNAME&amp;gt; 换为第一步获得的名字 输出中就有 PackageFamilyName 和 InstallLocation 获取 APP 的 ID 进入 InstallLocation 的目录 打开 InstallLocation 目录下的 AppxManifest.xml 文件 全局寻找 &amp;lt;Application 并确保那一行有 Id 和 Executable ID 即为此行的 Id 拼接命令 最终命令如下,替换其中的 及 为上文所获得的 PackageFamilyName 和 ID explorer.exe shell:appsFolder\&amp;lt;PackageFamilyName&amp;gt;!&amp;lt;ID&amp;gt; 参考资料 Starting Windows 10 &amp;ldquo;Store App&amp;rdquo; from the command line.</description>
+    </item>
+    
+    <item>
+      <title>Linux 设置弱密码</title>
+      <link>https://zhangguojvn.github.io/posts/linux-set-weak-password/</link>
+      <pubDate>Mon, 15 Aug 2022 23:27:26 +0800</pubDate>
+      
+      <guid>https://zhangguojvn.github.io/posts/linux-set-weak-password/</guid>
+      <description>Linux 设置弱密码。</description>
     </item>
     
     <item>

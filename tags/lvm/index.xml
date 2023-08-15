@@ -5,6 +5,7 @@
     <link>https://zhangguojvn.github.io/tags/lvm/</link>
     <description>Recent content in Lvm on 张某的博客</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
     <lastBuildDate>Sat, 30 Apr 2022 17:09:57 +0800</lastBuildDate><atom:link href="https://zhangguojvn.github.io/tags/lvm/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dracut 开机自动创建 Lvm 快照</title>

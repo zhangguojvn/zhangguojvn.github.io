@@ -5,6 +5,7 @@
     <link>https://zhangguojvn.github.io/categories/linux/</link>
     <description>Recent content in Linux on 张某的博客</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
     <lastBuildDate>Fri, 30 Dec 2022 17:22:29 +0800</lastBuildDate><atom:link href="https://zhangguojvn.github.io/categories/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ZFS 学习笔记</title>
@@ -13,6 +14,15 @@
       
       <guid>https://zhangguojvn.github.io/posts/zfs-note/</guid>
       <description>非特权用户使用 Xorg</description>
+    </item>
+    
+    <item>
+      <title>Linux 设置弱密码</title>
+      <link>https://zhangguojvn.github.io/posts/linux-set-weak-password/</link>
+      <pubDate>Mon, 15 Aug 2022 23:27:26 +0800</pubDate>
+      
+      <guid>https://zhangguojvn.github.io/posts/linux-set-weak-password/</guid>
+      <description>Linux 设置弱密码。</description>
     </item>
     
     <item>
